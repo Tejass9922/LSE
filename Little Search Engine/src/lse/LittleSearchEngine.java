@@ -133,7 +133,7 @@ public class LittleSearchEngine {
 	 * If a word has multiple trailing punctuation characters, they must all be stripped
 	 * So "word!!" will become "word", and "word?!?!" will also become "word"
 	 * 
-	 * See assignment description for examples
+	 
 	 * 
 	 * @param word Candidate word
 	 * @return Keyword (word without trailing punctuation, LOWER CASE)
@@ -288,9 +288,7 @@ public class LittleSearchEngine {
 	 * That is, if kw1 is in doc1 with frequency f1, and kw2 is in doc2 also with the same 
 	 * frequency f1, then doc1 will take precedence over doc2 in the result. 
 	 * 
-	 * The result set is limited to 5 entries. If there are no matches at all, result is null.
-	 * 
-	 * See assignment description for examples
+	 * The result set is limited to 5 entries. If there are no matches at all, result is null
 	 * 
 	 * @param kw1 First keyword
 	 * @param kw1 Second keyword
